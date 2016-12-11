@@ -1,0 +1,9 @@
+CREATE TABLE `listings` (
+`key` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`url` TEXT NOT NULL ,
+`title` TEXT NOT NULL ,
+`text` TEXT NOT NULL ,
+`last_update` DATETIME NOT NULL ,
+`found` DATETIME NOT NULL ,
+`new` BOOL NOT NULL DEFAULT '0'
+)
